@@ -150,4 +150,5 @@ while state6:
         state6 = False
     else:
         print(f"{"|_" * box_size}|")
-        count2 = count2 -1 
+        count2 = count2 -1
+
