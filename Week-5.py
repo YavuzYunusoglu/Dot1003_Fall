@@ -1,5 +1,5 @@
 #Assignment-3
-"""
+
 
 print("task54")#task54
 
@@ -98,7 +98,7 @@ my_lucky_numbers = [4,8,15,16,23,42]
 tripled_numbers = tripler(my_lucky_numbers)
 print(f"My Lucky Numbers: {my_lucky_numbers}")
 print(f"Tripled Numbers: {tripled_numbers}")
-"""
+
 
 print("Task64")#Task64
 
