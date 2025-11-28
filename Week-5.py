@@ -8,6 +8,7 @@ usr_inpt = input("Wich item do you want to search: ")
 print(f"item {usr_inpt} appeared {text.count(str.lower(usr_inpt))} times")
 
 
+print("")
 print("task55")#task55
 
 search_text = input("Enter the input to search: ")
@@ -15,6 +16,7 @@ search_item = input("Which item do you want to search: ")
 print(f"item {search_item} appeared {search_text.count(str.lower(search_item))} times")
 
 
+print("")
 print("task56")#task56
 
 vowels = ["a", "e", "i", "o", "u"]
@@ -31,12 +33,15 @@ print(clear_vowels(menu_button))
 #Assignment4
 
 
+print("")
 print("Task59")#Task59
+
 mylist = ["Doom", "Max Payne", "FTL"]
 print(mylist)
 print(max(mylist, key=len))
 
 
+print("")
 print("Task60")#Task60
 
 
@@ -58,6 +63,7 @@ element = int(input("item to search: "))
 print(finder(my_matrix, element))
 
 
+print("")
 print("Task61")#Task61
 
 def sum_of_row(list_arg, element_arg):
@@ -71,6 +77,7 @@ element1 = int(input("row no: "))
 print(sum_of_row(my_matrix1, element1))
 
 
+print("")
 print("Task62")#Task62
 
 def sum_of_column(list_arg, element_arg):
@@ -86,6 +93,7 @@ element2 = int(input("column no: "))
 print(sum_of_column(my_matrix2, element2))
 
 
+print("")
 print("Task63")#Task63
 
 def tripler(list_arg):
@@ -100,6 +108,7 @@ print(f"My Lucky Numbers: {my_lucky_numbers}")
 print(f"Tripled Numbers: {tripled_numbers}")
 
 
+print("")
 print("Task64")#Task64
 
 inventory = {
@@ -110,6 +119,9 @@ inventory = {
 
 for key in inventory:
     print(f"{key}: {inventory[key]}")
+
+
+print("")
 print("Task65")#Task65
 
 
